@@ -82,10 +82,36 @@ hr {
     width: 90%;
 }
 
+table {
+    display: inline-block;
+}
+
+table th{
+    color: rgb(121, 68, 68);
+    padding: 10px;
+}
+
+table td {
+    color:silver;
+    line-height: 1.5;
+}
+
 #contact-me {
     margin: 0 auto;
     margin-top: 30px;
     width: 30%;
+}
+
+form {
+    border: 2px solid rgb(114, 110, 110);
+    border-radius:5px;
+    padding: 10px;
+}
+
+input {
+    display: inline-block;
+    padding: 5px;
+    width: 100%;
 }
 
 #contact-me label {
@@ -101,18 +127,6 @@ button {
     margin-top: 5px;
     padding:5px;
     width: 250px ;
-}
-
-form {
-    border: 2px solid rgb(114, 110, 110);
-    border-radius:5px;
-    padding: 10px;
-}
-
-input {
-    display: inline-block;
-    padding: 5px;
-    width: 100%;
 }
 
 footer {
